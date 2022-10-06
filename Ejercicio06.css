@@ -1,0 +1,21 @@
+.parrafo::before {
+    content:"Pasa por encima";
+}
+
+
+.boton:hover  {
+    
+    background-color: green;
+    color: white; 
+    
+}
+
+.parrafo::after {
+    content:'¡Hecho!';  
+}
+
+
+
+
+
+
