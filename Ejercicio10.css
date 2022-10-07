@@ -1,0 +1,30 @@
+.seccion2 {
+    background-color: yellow;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    min-height: 5rem;
+    align-items: left;
+    flex-direction: column;
+    width: 7rem;
+    flex-grow: 1;
+    
+}
+
+.seccion1 {
+    display: flex;
+    background-color: coral;
+    flex-direction: row-reverse;
+}
+
+.item {
+    background-color: blueviolet;
+    padding: 0.5rem;
+    width: 5rem;
+}
+
+@media (max-width: 640px) {
+    .seccion1 {
+        flex-direction: bottom;
+    }
+}
